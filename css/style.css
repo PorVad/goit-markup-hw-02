@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 60px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    color: #434455;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #404bbf;
+}
+
+footer,
+.order_service {
+    background-color: #2e2f42;
+    color: white;
+    padding: 20px;
+}
+
+.order_service_btn {
+    background-color: #4d5ae5;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+}
+
+.order_service_btn:hover {
+    background-color: #404bbf;
+}
+
+.team {
+    background-color: #f4f4fd;
+    padding: 20px;
+}
