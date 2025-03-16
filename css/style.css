@@ -127,6 +127,14 @@ p {
     color: #2e2f42;
 }
 
+.features_list_titre, .team_list_titre, .portfolio_list_titre{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
 .team_people{
     background-color: #FFFFFF;
     font-size: 36px;
