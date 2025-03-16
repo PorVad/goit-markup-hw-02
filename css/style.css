@@ -39,14 +39,14 @@ a:hover {
     font-style: normal;
 }
 
-.address_mail, .address_tel{
+.address_contact{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.address_mail:focus, .address_tel:focus{
+.address_contact:focus{
     color: #404bbf;
 }
 
@@ -74,9 +74,11 @@ p {
     letter-spacing: 0.02em;
 }
 
-footer,
-.order_service_titre {
+.order_service {
     background-color: #2e2f42;
+}
+
+.order_service_titre{
     color: white;
     line-height: 1.07;
     text-align: center;
@@ -117,10 +119,10 @@ footer,
     color: #434455;
 }
 
-.features_titre{
+.features_titre, .portfolio_titre{
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -159,6 +161,10 @@ footer,
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.footer{
+    background-color: #2e2f42;
 }
 
 .footer_text{
