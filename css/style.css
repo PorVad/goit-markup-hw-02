@@ -13,15 +13,6 @@ h2 {
     font-size: 36px;
 }
 
-h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-
-}
-
 a {
     color: #434455;
     font-size: 12px;
@@ -40,6 +31,10 @@ a:hover {
     color: #2e2f42;
 }
 
+.header_list_a:focus{
+    color: #404bbf;
+}
+
 .address{
     font-style: normal;
 }
@@ -48,9 +43,10 @@ a:hover {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
-.address_mail, .address_tel:focus{
+.address_mail:focus, .address_tel:focus{
     color: #404bbf;
 }
 
@@ -68,6 +64,10 @@ a:hover {
     color: #2e2f42;
 }
 
+.logo_p_footer{
+    color: #f4f4fd;
+}
+
 p {
     font-size: 16px;
     line-height: 1.5;
@@ -75,10 +75,9 @@ p {
 }
 
 footer,
-.order_service {
+.order_service_titre {
     background-color: #2e2f42;
     color: white;
-    padding: 20px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
@@ -93,11 +92,13 @@ footer,
     background-color: #4d5ae5;
     color: white;
     cursor: pointer;
-    padding: 10px 20px;
-    font-size: 18px;
 }
 
 .order_service_btn:hover {
+    background-color: #404BBF;
+}
+
+.order_service_btn:focus{
     background-color: #404BBF;
 }
 
@@ -116,6 +117,14 @@ footer,
     color: #434455;
 }
 
+.features_titre{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
 .team_people{
     background-color: #FFFFFF;
     font-size: 36px;
@@ -128,7 +137,6 @@ footer,
 
 .team {
     background-color: #f4f4fd;
-    padding: 20px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -150,6 +158,7 @@ footer,
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .footer_text{
